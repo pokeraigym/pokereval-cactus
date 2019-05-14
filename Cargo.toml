@@ -2,7 +2,7 @@
 name = "pokereval_cactus"
 description = "A Rust version of the python poker hand evaluation library treys"
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Henrik Böving <hargonix@gmail.com>"]
 edition = "2018"
 

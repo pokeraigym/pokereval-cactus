@@ -25,7 +25,7 @@ impl Deck {
         cards
     }
 
-    fn get_full_deck() -> Vec<i32> {
+    pub fn get_full_deck() -> Vec<i32> {
         let mut deck = Vec::new();
 
         for rank in STR_RANKS.chars() {

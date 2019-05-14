@@ -29,6 +29,7 @@ impl Evaluator {
     pub fn class_to_string(&self, class_int: i32) -> String {
         rank_class_to_string(class_int)
     }
+
     fn five(&self, cards: Vec<i32>) -> i32 {
         if (cards[0] & cards[1] & cards[2] & cards[3] & cards[4] & 0xF000) != 0 {
             let hand_or = (cards[0] | cards[1] | cards[2] | cards[3] | cards[4]) >> 16;
